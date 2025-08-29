@@ -84,7 +84,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn2" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -106,7 +106,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn3" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -128,7 +128,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn4" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -150,7 +150,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn5" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -172,7 +172,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn6" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -194,7 +194,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn7" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -216,7 +216,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn8" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -238,7 +238,7 @@
                 
                    <div class="mt-10 ml-2">
                      <button class="w-[182px] h-[40px] rounded-lg  border-2 border-[#d4d6d5]"><i class="fa-solid fa-copy mr-1"></i>Copy</button>
-                    <button class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
+                    <button id="call-btn9" class="bg-[#00A63E] w-[182px] h-[40px] rounded-lg text-[white]"><i class="fa-solid fa-phone mr-1"></i>Call</button>
                    </div>
             
 
@@ -250,10 +250,18 @@
         <div class="w-[400px] h-[1130px]  p-10 bg-[white] mt-10 mr-20">
            <div class="flex flex-col md:flex-row justify-between items-center">
              <h3 class="font-bold"><i class="fa-regular fa-clock mr-1"></i>Call History</h3>
-            <button  class="bg-[#00A63E] text-[white] w-[114px] h-[52px] rounded-full">Clear</button>
+            <button id="clear-btn" class="bg-[#00A63E] text-[white] w-[114px] h-[52px] rounded-full">Clear</button>
            </div>
 
-            <div id="history-1" class="mt-3 font-semibold w-[80px] h-[15px] bg-[#fafafa]"></div>
+            <div id="history-1" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-2" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-3" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-4" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-5" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-6" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-7" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-8" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
+            <div id="history-9" class="mt-3 font-semibold w-[160px] h-[55px] "></div>
 
         </div>
 
